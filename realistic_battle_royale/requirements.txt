@@ -1,0 +1,7 @@
+ursina
+panda3d
+numpy
+scipy
+pytest
+asyncio
+websockets

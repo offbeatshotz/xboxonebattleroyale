@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realistic Battle Royale - 4K HDR Download Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0e0e0e;
+            color: #e0e0e0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(135deg, #1a1a1a 0%, #000 100%);
+            width: 100%;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            border-bottom: 2px solid #333;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+        header p {
+            margin: 10px 0 0;
+            color: #888;
+            font-size: 1.1em;
+        }
+        .container {
+            max-width: 900px;
+            width: 90%;
+            margin-top: 40px;
+            background: #161616;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+        .file-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            border-bottom: 1px solid #222;
+            transition: background 0.3s;
+        }
+        .file-item:last-child {
+            border-bottom: none;
+        }
+        .file-item:hover {
+            background: #1f1f1f;
+        }
+        .file-info {
+            display: flex;
+            align-items: center;
+        }
+        .file-icon {
+            margin-right: 15px;
+            font-size: 1.5em;
+        }
+        .file-name {
+            font-weight: 500;
+            font-size: 1.1em;
+        }
+        .download-btn {
+            background: #007bff;
+            color: white;
+            padding: 8px 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .download-btn:hover {
+            background: #0056b3;
+            transform: scale(1.05);
+        }
+        .specs {
+            margin-top: 30px;
+            padding: 20px;
+            background: #1a1a1a;
+            border-left: 4px solid #007bff;
+            border-radius: 4px;
+        }
+        .specs h2 {
+            margin-top: 0;
+            font-size: 1.3em;
+            color: #007bff;
+        }
+        footer {
+            margin-top: auto;
+            padding: 30px;
+            color: #555;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Realistic Battle Royale</h1>
+        <p>Ultra HD 4K HDR - Python Edition</p>
+    </header>
+
+    <div class="container">
+        <h2>Download Game Files</h2>
+        <ul class="file-list">
+            <li class="file-item">
+                <div class="file-info">
+                    <span class="file-icon">📦</span>
+                    <span class="file-name">client/main.py</span>
+                </div>
+                <a href="../client/main.py" class="download-btn" download>Download</a>
+            </li>
+            <li class="file-item">
+                <div class="file-info">
+                    <span class="file-icon">🖥️</span>
+                    <span class="file-name">server/server.py</span>
+                </div>
+                <a href="../server/server.py" class="download-btn" download>Download</a>
+            </li>
+            <li class="file-item">
+                <div class="file-info">
+                    <span class="file-icon">📄</span>
+                    <span class="file-name">requirements.txt</span>
+                </div>
+                <a href="../requirements.txt" class="download-btn" download>Download</a>
+            </li>
+            <li class="file-item">
+                <div class="file-info">
+                    <span class="file-icon">🗺️</span>
+                    <span class="file-name">maps/map_definitions.py</span>
+                </div>
+                <a href="../maps/map_definitions.py" class="download-btn" download>Download</a>
+            </li>
+        </ul>
+
+        <div class="specs">
+            <h2>Recommended Specs for 4K HDR</h2>
+            <ul>
+                <li><strong>OS:</strong> Windows 10/11 (64-bit)</li>
+                <li><strong>Processor:</strong> Intel Core i7 / AMD Ryzen 7</li>
+                <li><strong>Graphics:</strong> NVIDIA RTX 3080 / AMD RX 6800 XT (HDR Compatible)</li>
+                <li><strong>Display:</strong> 4K HDR Monitor / Xbox Series X|S on 4K TV</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Realistic Battle Royale Team. Hosted on GitHub.
+    </footer>
+
+</body>
+</html>
